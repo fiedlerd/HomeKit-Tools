@@ -25,4 +25,5 @@ app.get('/get', (req, res) => {
     }
 });
 
+
 app.listen(port, () => console.log(`HomeKit Temp-Store läuft auf Port ${port}`));
